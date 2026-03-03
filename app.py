@@ -4,7 +4,7 @@ from langchain_nvidia_ai_endpoints import ChatNVIDIA
 import os
 
 
-os.environ["NVIDIA_API_KEY"] = "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"
+os.environ["NVIDIA_API_KEY"] = "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"
 
 llm = ChatNVIDIA(model="meta/llama-3.1-8b-instruct")
 
